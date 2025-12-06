@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:clirrec="https://codes.cl-kiita.migdal.jp/clir/rec"
+  targetNamespace="https://codes.cl-kiita.migdal.jp/clir/rec"
+  version="1.0">
+  <!-- 状態 -->
+  <xsd:simpleType name="reqStatus">
+    <xsd:restriction base="xsd:unsignedByte">
+      <xsd:maxInclusive value="8"/>
+      <!-- 0〜7 -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="colId">
+    <xsd:restriction base="xsd:Name">
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>
+
+<xsd:schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:clirrec="https://codes.cl-kiita.migdal.jp/clir/rec"
+  targetNamespace="https://codes.cl-kiita.migdal.jp/clir/out/tree"
+  version="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://codes.cl-kiita.migdal.jp/clir/rec https://codes.cl-kiita.migdal.jp/schema/out.clir.xml">
+</xsd:schema>
+
+<xsd:schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:clirrec="https://codes.cl-kiita.migdal.jp/clir/rec"
+  targetNamespace="https://codes.cl-kiita.migdal.jp/clir/out/list"
+  version="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://codes.cl-kiita.migdal.jp/clir/rec https://codes.cl-kiita.migdal.jp/schema/out.clir.xml">
+</xsd:schema>

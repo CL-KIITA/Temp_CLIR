@@ -6,9 +6,18 @@ version: 1.0.0
 environment:
   sdk: ^3.10.1
 
-# Add regular dependencies here.
-# dependencies:
-#  path: ^1.9.0
+dependencies:
+  jaspr: ^0.20.0
+  http: ^1.5.0
+  pointycastle: ^4.0.0
+  archive: ^3.6.1
+  es_compression: ^2.0.14
+  color: ^3.0.0
+  sitemap: ^1.0.0
+  concode_lib:
+    git:
+      url: https://github.com/CL-KIITA/Temp_CLIR.git
+      path: concode_lib
 
 # dev_dependencies:
 #  lints: ^6.0.0
